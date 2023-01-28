@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/media.css">
+  </head>
+  <body>
+    <header>
+      <div class="conteiner">
+        <nav class="menu">
+          <ul class="menu_list">
+            <li class="menu_item">
+              <a href="#section_main" class="menu_link">Что нового</a>
+            </li>
+            <li class="menu_item"><a href="#section_color" class="menu_link">Цвет</a></li>
+            <li class="menu_item"><a href="#section_order" class="menu_link">Заказать</a></li>
+          </ul>
+          <img src="/img/icons/logo.svg" alt="logo" class="logo" />
+          <div>
+            <a href="tel:+380504565656" class="menu_tel">+38 050-456-56-56</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="conteiner">
+          <div class="wrapper_hero">
+            <h1 class="hero_titel">IPHONE 14 PRO</h1>
+            <img
+              src="/img/content/iphone_14_pro_hero.png"
+              alt="iphone"
+              class="hero_img"
+            />
+            <button class="hero_btn">ВЫБРАТЬ</button>
+          </div>
+        </div>
+      </section>
+      <section class="section_main" id="section_main">
+        <div class="conteiner">
+          <h2 class="titel_section">ЧТО НОВОГО</h2>
+          <div class="news_wrapper">
+            <div class="news_content">
+              <p class="news_content_text">
+                Все модели оснащены однокристальной системой A16 Bionic,
+                48-мегапиксельной основной камерой и экранами ProMotion с
+                защитой Ceramic Shield и частотным диапазоном 1 — 120 Гц, а
+                также ускоренной памятью LPDDR5. Дизайн линейки обновлен, на
+                фронтальной панели смартфонов два выреза.
+              </p>
+              <p class="news_content_text">
+                Все iPhone 14 в США будут продаваться без лотка для SIM-карт:
+                производитель заявляет, что улучшенная технология eSIM позволит
+                перенести старые электронные сим-карты на новые смартфоны.
+              </p>
+              <p class="news_content_text">
+                Обновлены фронтальная камера (она снабжена автофокусом и быстрее
+                распознает пользователя в условиях недостаточной освещенности) и
+                сенсор основной камеры.
+              </p>
+              <p class="news_content_text">
+                iPhone 14 Pro вышел в новом дизайне — без фирменной «челки».
+                Также в ассортименте появился новый цвет. В смартфоне, в отличие
+                от «обычных» 14-х айфонов, установлен процессор A16 Bionic,
+                который может за секунду производить 4 трлн операций с фото.
+              </p>
+            </div>
+            <div class="news_img">
+              <img
+                src="/img/content/Apple_iPhone_14_Pro_Max_section.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_main" id="section_color">
+        <div class="conteiner">
+          <h2 class="titel_section">ВЫБЕРИ СВОЙ ЦВЕТ</h2>
+          <div class="product_wrapper">
+            <ul class="product_list">
+              <li class="product_item">
+                <img src="/img/content/silver.png" alt="" class="product_img" />
+                <div class="about_product">
+                  <h3 class="product_titel">Silver</h3>
+                  <p class="product_text_iphone">Серебристый</p>
+                </div>
+              </li>
+              <li class="product_item">
+                <img src="/img/content/purple.png" alt="" class="product_img" />
+                <div class="about_product">
+                  <h3 class="product_titel">Deep purple</h3>
+                  <p class="product_text_iphone">Темно фиолетовый</p>
+                </div>
+              </li>
+              <li class="product_item">
+                <img
+                  src="/img/content/gold.png"
+                  alt="iphoneGold"
+                  class="product_img"
+                />
+                <div class="about_product">
+                  <h3 class="product_titel">Gold</h3>
+                  <p class="product_text_iphone">Золотой</p>
+                </div>
+              </li>
+              <li class="product_item">
+                <img
+                  src="/img/content/black.png"
+                  alt="iphoneBlack"
+                  class="product_img"
+                />
+                <div class="about_product">
+                  <h3 class="product_titel">Space Black</h3>
+                  <p class="product_text_iphone">Космический черный</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="section_order">
+        <div class="conteiner">
+          <div class="form_wrapper">
+            <div class="form_order">
+            <form action=""  class="form_order_item">
+              <h2 class="titel_section_form">ХОЧЕШЬ IPHONE 14 PRO?</h2>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="form_input"
+                placeholder="Ваше имя"
+              />
+              <input
+                type="tel"
+                name=""
+                id=""
+                class="form_input"
+                placeholder="Номер телефона"
+              />
+              <p class="form_text">
+                В ближайшее время наш менеджер свяжется с Вами
+              </p>
+              <button class="form_btn">ЗАКАЗАТЬ</button>
+            </form>
+            </div>
+            <div class="form_photo">
+               <img
+              src="img/content/iphone_endframe.jpg"
+              alt="iphone_endframe"
+              class="form_img"
+            /></div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="conteiner">
+        <div class="footer_wrapper">
+          <a href="" class="footer_ref">Политика конфиденциальности</a
+          ><img src="img/icons/logo.svg" alt="logo" class="footer_logo" />
+          <a href="tel:+380504565656" class="menu_tel">+38 050-456-56-56</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

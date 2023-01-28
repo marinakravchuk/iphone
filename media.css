@@ -1,0 +1,18 @@
+@media(max-width:650px){
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .logo{
+        transform: translate(0);
+    }
+}
+
+
+@media(max-width:360px){
+    .hero_btn{
+        width: 250px;
+    }
+}
