@@ -134,9 +134,6 @@ header {
 }
 
 
-.hero_btn:hover{
-transform:rotate(360deg);
-}
 .titel_section {
   margin-bottom: 50px;
   text-align: center;
